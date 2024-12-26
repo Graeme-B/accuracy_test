@@ -1,0 +1,33 @@
+name: accuracy_test
+description: "Test the accuracy of inertial navigation against satnav"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  gps_tracker:
+    path: /Users/macbook/StudioProjects/gps_tracker
+  permission_handler: ^10.0.0
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.3
+  gps_tracker_db:
+    path: /Users/macbook/StudioProjects/gps_tracker_db
+  shared_preferences: ^2.0.18
+  simple_sensor:
+    path: /Users/macbook/StudioProjects/simple_sensor
+  vector_math: ^2.1.4
+  latlong2: ^0.9.0
+  intl: 0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
